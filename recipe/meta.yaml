@@ -1,5 +1,5 @@
 {% set name = "pynucastro" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynucastro-{{ version }}.tar.gz
-  sha256: 3a88e6bf058362b2a9ea18a7e238cc8c8bc1c6f749317a0dc24348a5c8ce9fd3
+  sha256: 601848ecb2b2424f3b5fbcf45d4e77c302673c8ba52c39250c889f36afb89a66
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - ipywidgets >=7.1.2
     - matplotlib-base >=2.1.0
     - networkx >=2.1
-    - numpy >=1.13.3,<2.0
+    - numpy >=1.13.3,<3.0
     - scipy >=1.0.0
     - sympy >=1.1.1
   run_constrained:
