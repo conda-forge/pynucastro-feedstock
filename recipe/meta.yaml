@@ -1,5 +1,5 @@
 {% set name = "pynucastro" %}
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynucastro-{{ version }}.tar.gz
-  sha256: cd14f7d71775edad35a1d6a72701db71789fc7fbacaced5f4121379af957a0fb
+  sha256: 2547f7fbe0b3ab43505fd591af0f5fe9d385d21e5f10e0c6bcc19142ea1d26e8
 
 build:
   noarch: python
