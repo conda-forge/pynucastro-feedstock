@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@yut23](https://github.com/yut23/)
 * [@zingale](https://github.com/zingale/)
 
-
-<!-- dummy commit to enable rerendering -->
-
