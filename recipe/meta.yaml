@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "pynucastro" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pynucastro-{{ version }}.tar.gz
-  sha256: 84c34483156d9d3ab9f7b4062b639454017bdea5e04522a4c8617600dfd9a16b
+  sha256: e32920b16613b497137b0885f1010e8b156ef4641a0584e0899c80d3c6b883e9
 
 build:
   noarch: python
